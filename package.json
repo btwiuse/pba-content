@@ -16,7 +16,7 @@
     "move-files": "cp ./syllabus/4-Governance/Slides_Singapore.* ./build/syllabus/4-Governance/.",
     "move-frontpage": "cp -r ./frontpage/* ./build/.",
     "prepare-deployment": "git fetch --tags && yarn run clean && yarn run tag:cambridge && yarn run tag:buenos-aires && yarn run tag:berkeley && yarn run tag:hong-kong && yarn run tag:current && mkdir build && yarn run move-tags && yarn run move-frontpage",
-    "clean": "rm -rf build",
+    "clean": "rm -rf build/*",
     "build": "yarn run clean && reveal-md ./ --static build && yarn build:agenda && cp -r ./dist/* build/",
     "deploy": "gh-pages -d build",
     "serve": "http-server ./build -p 1949 -s & echo server started http://localhost:1949",
