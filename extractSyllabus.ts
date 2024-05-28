@@ -1,5 +1,5 @@
 const { globSync } = require('glob')
-const { writeFileSync } = require('fs')
+const { mkdirSync, writeFileSync } = require('fs')
 const YAML = require('yaml')
 
 // Sorting based on the initial number (even if it is in a string)
@@ -57,4 +57,5 @@ const paths = sortArray(dirs).map((dir:any) =>
 const data = JSON.stringify(parsed, null, 2)
 const yaml = YAML.stringify(parsed)
 writeFileSync('./src/syllabus.json', data)
-writeFileSync('./src/syllabus.yaml', yaml)
+mkdirSync('./build', { recursive: true })
+writeFileSync('./build/syllabus.yaml', yaml)
