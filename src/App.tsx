@@ -2,7 +2,7 @@ import { Accordion } from './components/Accordion'
 
 import './App.css'
 import someJson from "./syllabus.json"
-import Logo from "./images/pba-logo-white.svg";
+import Logo from "./images/powered-by-gear.png";
 
 export const replaceText = (v: string) => v.replace(/\d+?(?=-)/g, "").replace(/-|_/g, " ")
 
@@ -12,7 +12,7 @@ export const App = () => {
       <header className="site-header site-header--small">
         <menu className="menu menu--header">
           <li className="menu-item logo">
-            <Logo />
+            <img src={Logo} style={{ maxWidth: "70%" }} />
           </li>
           <li className="menu-item">
             <h2>Table of Contents</h2>
@@ -24,4 +24,4 @@ export const App = () => {
       </div>
     </>
   )
-} 
+}
