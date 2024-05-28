@@ -1,6 +1,6 @@
 ---
-title: Shallow Dive, Asynchronous Backing
-description: Decoupling Backing and Inclusion Through Advance Work Based on Happy Path Assumptions
+title: Vara Network Intro, Hello World
+description: Introduction to Vara Network and upload your first application
 duration: 30 min
 ---
 
