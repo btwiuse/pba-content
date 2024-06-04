@@ -41,7 +41,7 @@ Vara 支持使用多种数字签名算法对交易进行签名
     
 而 ECDSA 的公钥长度为 33 字节，需要经过哈希得到账户地址
 
-也可以将账户地址进行编码，
+也可以将账户地址进行编码，让它变得对用户更友好
 
  </pba-flex>
 
@@ -172,24 +172,28 @@ Notes:
 
 ---
 
-![alt text](image.png)
+![alt text](./sw1.png)
 
 ---
 
-![alt text](image-1.png)
+![alt text](./sw2.png)
 
 ---
 
-![alt text](image-2.png)
+![alt text](./sw3.png)
 
 ---
 
-![alt text](image-3.png)
+![alt text](./sw4.png)
 
 ---
 
-![alt text](image-4.png)
+![alt text](./sw5.png)
 
 ---
 
-![alt text](image-5.png)
+![alt text](./sw6.png)
+
+---
+
+![alt text](./sw7.png)
