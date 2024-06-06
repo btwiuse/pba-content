@@ -106,7 +106,7 @@ template.wasm
 
 <br/>
 
-得到 Metadata 与 (`*.meta.txt`) 与优化后的合约二进制 (`*.opt.wasm`)
+得到 Metadata (`*.meta.txt`) 与优化后的合约二进制 (`*.opt.wasm`)
 
 </div>
 

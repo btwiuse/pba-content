@@ -6,6 +6,13 @@ duration: 30 min
 
 # 核心概念
 
+
+---
+
+## Actor Model
+
+<img style="width: 900px" src="image.png" />
+
 ---
 
 ## 原生代币与 Gas
