@@ -1,5 +1,5 @@
 ---
-title: Vara Network Intro, Hello World
+title: 开发环境搭建
 description: Introduction to Vara Network and upload your first application
 duration: 30 min
 ---

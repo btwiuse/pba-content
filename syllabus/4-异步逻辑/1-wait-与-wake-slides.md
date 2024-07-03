@@ -1,5 +1,5 @@
 ---
-title: Vara Network Intro, Hello World
+title: wait 与 wake
 description: Introduction to Vara Network and upload your first application
 duration: 30 min
 ---

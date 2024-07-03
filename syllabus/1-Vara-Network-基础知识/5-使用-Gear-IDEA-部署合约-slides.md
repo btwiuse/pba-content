@@ -1,5 +1,5 @@
 ---
-title: Vara Network Intro, Hello World
+title: 使用 Gear IDEA 部署合约
 description: Introduction to Vara Network and upload your first application
 duration: 30 min
 ---
