@@ -119,7 +119,7 @@ https://github.com/gear-tech/gear
 
 <pba-flex center>
 
-- 文档中心 - https://wiki.gear-tech.io
+- 文档中心 - https://wiki.vara.network
 - 标准库文档 - https://docs.gear.rs/gstd
 - 区块浏览器 - https://vara.subscan.io
 - Gear IDEA - https://idea.gear-tech.io
